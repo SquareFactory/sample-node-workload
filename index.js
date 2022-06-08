@@ -1,13 +1,11 @@
+#!/usr/bin/env node
 const { fib, dist } = require('cpu-benchmark');
 
 const FIBONACCI_MAX= 45;
 const OPS_SECS = 10;
 
-console.log('Command argv');
-console.table(process.argv)
-
-console.log('Environment variables');
-console.table(Object.entries(process.env));
+console.log('Command argv', process.argv)
+console.log('Environment variables', process.env);
 
 console.log('Calculating the Fibonacci sequence');
 console.log(`Computed fib(${FIBONACCI_MAX}) in ${fib(FIBONACCI_MAX)}ms`);

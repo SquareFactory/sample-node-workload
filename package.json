@@ -1,18 +1,13 @@
 {
-  "name": "@csquare-ai/sample-node-workload",
+  "name": "@squarefactory/sample-node-workload",
   "version": "1.0.0",
   "description": "A sample CPU-intensive workload for csquare.run",
-  "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/csqaure-ai/sample-node-workload.git"
-  },
-  "author": "Mathieu Bour <mathieu@csquare.ai>",
+  "main": "index.js",
+  "repository": "github:SquareFactory/sample-node-workload.git",
+  "author": "Mathieu Bour <mathieu@squarefactory.io>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/csqaure-ai/sample-node-workload/issues"
-  },
-  "homepage": "https://github.com/csqaure-ai/sample-node-workload#readme",
+  "bugs": "https://github.com/SquareFactory/sample-node-workload/issues",
+  "homepage": "https://github.com/SquareFactory/sample-node-workload#readme",
   "dependencies": {
     "cpu-benchmark": "^1.0.1"
   }
